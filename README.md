@@ -15,6 +15,8 @@ Hellloo! I Haris bin Yousaf 👋<br>A Software Engineer in making, with expertis
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=haris-yousaf&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
+<a href="https://app.daily.dev/harisyousaf"><img src="https://api.daily.dev/devcards/v2/76OTjxmgRhho1gnpCOvRU.png?r=xed&type=default" width="356" alt="Haris Yousaf's Dev Card"/></a>
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
