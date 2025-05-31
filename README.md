@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hellloo! I Haris bin Yousaf 👋<br>A Software Engineer in making, with expertise in designing, developing, and implementing innovative software solutions. Proven ability to translate complex requirements into efficient code. Strong team player with excellent communication skills. Eager to contribute to impactful projects in a collaborative environment.  <br><br>🔭 I’m currently working as a Front-end Intern @Red Sun IT Services and  @Bytewise Limited.<br><br>🌱 I’m currently learning Front-end Development.<br>
+Hellloo! I Haris bin Yousaf 👋<br>A Software Engineer in making, with expertise in designing, developing, and implementing innovative software solutions. Proven ability to translate complex requirements into efficient code. Strong team player with excellent communication skills. Eager to contribute to impactful projects in a collaborative environment.  <br><br>🔭 I’m currently working as a SEO Executive @Red Sun IT Services.<br><br>🌱 I’m currently learning Front-end Development.<br>
 
 
 ## 🌐 Socials:
