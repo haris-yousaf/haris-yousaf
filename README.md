@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello! I'm Haris bin Yousaf 👋<br>A detail-oriented Software Quality Assurance Engineer in the making, with a focus on identifying defects, ensuring product reliability, and building robust testing workflows. Passionate about breaking things before users do.  <br><br>🔭 I'm currently working as an SQA Intern @ THE IT ZON<br><br>🌱 I'm currently learning API Test Automation and SQA Automation<br>
+Hello! I'm Haris bin Yousaf 👋<br><br>A detail-oriented Software Quality Assurance Engineer in the making, with a focus on identifying defects, ensuring product reliability, and building robust testing workflows. Passionate about breaking things before users do.  <br><br>🔭 I'm currently working as an SQA Intern @ THE IT ZON<br><br>🌱 I'm currently learning API Test Automation and SQA Automation<br>
 
 
 ## 🌐 Socials:
@@ -24,16 +24,8 @@ Hello! I'm Haris bin Yousaf 👋<br>A detail-oriented Software Quality Assurance
 ![](https://github-readme-streak-stats.herokuapp.com/?user=haris-yousaf&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=haris-yousaf&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=haris-yousaf&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-<a href="https://app.daily.dev/harisyousaf"><img src="https://api.daily.dev/devcards/v2/76OTjxmgRhho1gnpCOvRU.png?r=xed&type=default" width="356" alt="Haris Yousaf's Dev Card"/></a>
-
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=haris-yousaf&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=haris-yousaf&label=Profile%20Views&color=11&icon=5&pretty=true)](https://visitcount.itsvg.in)
