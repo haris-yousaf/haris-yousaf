@@ -1,109 +1,72 @@
-# Hey, I'm Haris Bin Yousaf 👋
+# Hi, I'm Haris Bin Yousaf 👋
 
-**Certified bug-hunter. Recovering developer.**
+**SQA Engineer | Mobile, Ads, Functional, API and Performance Testing**
 
-> *"Spent a year building things. Turns out I'm better at breaking them."*
+I test mobile apps for a living and build API and performance test suites in my own time. Since March 2026 I have worked at **THE IT ZON** in Islamabad, first as an SQA Intern (PSEB Apprenticeship Program) and since September 2026 as an SQA Engineer.
 
-SQA Engineer in the making, currently interning at **THE IT ZON** with a deep curiosity for how things break and an unhealthy habit of asking *"but what if the user does THIS?"*
-
----
-
-## The Origin Story 🕰️
-
-I kicked things off as a **Frontend Developer**: two back-to-back internships in summer 2024, building UIs, fighting CSS specificity at 2am, and wondering why something that looked perfect on my machine looked completely broken everywhere else. *(Spoiler: it was always the browser. Or the designer's Figma file. Or my overconfidence. Usually all three.)*
-
-Then came my Final Year Project: **BuildBazaar**, a full-stack MERN multi-vendor marketplace for construction materials in Pakistan. I was deep in React, Node.js, and MongoDB, shipping features and learning what it means to build something real.
-
-But somewhere between writing components and debugging API calls, I noticed I was spending more time *testing* other people's code than writing my own. And enjoying it more.
-
-**I wasn't excited about writing the next feature. I was excited about breaking it.**
-
-In between all of this, I was also an **SEO Intern turned SEO Executive at Giga Group of Companies** (Sep 2024 to Aug 2025), because apparently wearing three hats during my final year of university wasn't enough of a challenge. 
-
-By the time I graduated in **July 2025**, I had touched frontend, full-stack, and SEO strategy, and made a deliberate call to commit fully to SQA.
-
-No regrets. *(Except maybe the CSS animation I spent six hours on for a component that got cut from the design the next day.)*
+I started out as a frontend developer, noticed I enjoyed breaking things more than building them, and moved into QA full time after graduating.
 
 ---
 
-## What I Actually Do 🔍
+## What I do day to day
 
-I break things. Professionally. Before your users do it for free.
+- Test ad-monetized Android apps (plus select iOS apps) on **physical devices only**, across Android 7 to 16 and small, medium, and large screens
+- Own **ads testing** on AdMob and mediation, including edge cases driven by **Firebase Remote Config**
+- Run **functional testing** of complete apps, premium/subscription plans, and AI-powered features
+- Give QA sign-off for production releases and track everything in ClickUp
+- Use Claude with Figma, ClickUp, and Firebase MCP servers to run module-level checks, so my manual time goes to core flows and ads
 
-As an **SQA Intern at THE IT ZON**, I work across manual testing, API testing, mobile testing, and mobile ads testing, making sure software behaves the way it's supposed to, edge cases and all.
+**Some numbers from the job (aggregate, no app names):**
 
-My dev background helps me in a way that I know how things are built, which means I have a good sense of how things SHOULD be and where the cracks like to hide.
-
----
-
-## Skills and Tools 🛠️
-
-**Testing**
-
-| Skill | Notes |
+| Period | What |
 |---|---|
-| Manual Testing | Test case design, bug reporting, exploratory testing |
-| API Testing | Postman: request chaining, environment variables, JSON schema validation |
-| Mobile Testing | Functional testing on Android and iOS |
-| Mobile Ads Testing | Ad behaviour validation, targeting, rendering across devices |
-| CI/CD | GitHub Actions: automated test pipelines triggered on every push |
+| Mar to Aug 2026 (Intern) | 35+ apps tested, 600+ issues logged in my personal tracker alone, roughly 90 to 95% fixed |
+| Sep to Oct 2026 (Engineer) | 559 tickets verified and 249 bugs reported across 29 apps in the first 2 months |
 
-**Currently Learning**
-
-| Skill | Status |
-|---|---|
-| API Test Automation | Postman + Newman CLI + HTMLextra reports -- Certified |
-| JS Automation + Playwright | Up next on the roadmap |
-
-**Dev Background** *(still comes in handy)*
-
-`React` `JavaScript` `Node.js` `Express` `MongoDB` `HTML/CSS` `SEO`
+I also found authentication tokens and API keys leaking in app logs in 3 to 4 apps during log review. Security testing was not part of the company process, so I reported them immediately and got them fixed.
 
 ---
 
-## Certifications 🏅
+## Skills
 
-| Credential | Issuer | Awarded |
+| Area | Tools and techniques |
+|---|---|
+| Mobile and ads testing | Android and iOS device testing, AdMob + mediation, Firebase Remote Config, FCM notifications |
+| Functional testing | Exploratory, regression, smoke, UI, cross-device and cross-OS-version testing |
+| API testing and automation | Postman, Newman, JSON schema validation, GitHub Actions CI, OAuth 2.0, API key and token auth |
+| Performance testing | Apache JMeter: baseline, load, stress, spike, correlation, think time, throughput control |
+| Tracking and collaboration | ClickUp, Figma, Firebase Console, Git, GitHub |
+
+**Currently learning:** database testing (SQL), then test automation.
+
+**Certification:** [Postman API Test Automation](https://github.com/haris-yousaf/Api-Testing) (June 2026)
+
+---
+
+## Portfolio
+
+### API Testing (Postman + Newman + GitHub Actions)
+
+| Repository | API under test | What it shows |
 |---|---|---|
-| API Test Automation | Postman | June 5, 2026 |
+| [Api-Testing](https://github.com/haris-yousaf/Api-Testing) | Coffee shop REST API | 7 requests, 17 assertions, JSON schema validation, variable chaining, CI on every push |
+| [restful-booker-api-testing](https://github.com/haris-yousaf/restful-booker-api-testing) | Restful Booker | 22 test cases, 60 assertions, full CRUD, token auth, 4 documented bugs |
+| [reqres-api-testing](https://github.com/haris-yousaf/reqres-api-testing) | ReqRes | 17 test cases, 45 assertions, API key auth, secrets kept in CI, 1 documented bug |
+| [OAuth-GitHub-Api-Testing](https://github.com/haris-yousaf/OAuth-GitHub-Api-Testing) | GitHub REST API | OAuth 2.0 authorization code flow, authorization (BOLA) checks, revoked-token handling |
+
+### Performance Testing (Apache JMeter)
+
+| Repository | Target | What it shows |
+|---|---|---|
+| [api-performance-testing](https://github.com/haris-yousaf/api-performance-testing) | Public REST API | Baseline, load, stress up to 800 users, spike; traced a 22% spike error rate to local TCP port exhaustion and cut it to 0.37% |
+| [web-performance-testing](https://github.com/haris-yousaf/web-performance-testing) | Authenticated web app | CSRF token correlation, session handling, think time, and what changes when load tests get realistic |
+
+Every project documents its test plan, test cases, results, and limitations, including the parts that did not go as planned.
 
 ---
 
-## How I Work 🤝
+## Contact
 
-I read the full requirements doc before asking questions. Then I ask a lot of questions anyway, because the requirement that *looks* obvious is usually the one that bites you in testing.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Haris%20Bin%20Yousaf-black?style=flat&logo=linkedin)](https://www.linkedin.com/in/haris-yousaf-sqa/) [![Email](https://img.shields.io/badge/Email-harisy260%40gmail.com-black?style=flat&logo=gmail)](mailto:harisy260@gmail.com)
 
-- **Detail-oriented to a fault:** I notice the 2px misalignment. Every time. It bothers me more than it should.
-- **Methodical:** structured test plans, clear bug reports, documentation that future-me will actually understand
-- **Curious by default:** My default question when looking at any feature is *"but what if someone does this instead?"*
-- **Laid-back but accountable:** I'm laid-back about most things, but I take ownership of my work seriously. If my name is on it, it's going to be done properly.
-- **People person:** I communicate clearly, get along with everyone from devs to PMs, and still make it out alive after filing 12 bugs on your sprint
-
-I take my work seriously. I don't take myself too seriously.
-
----
-
-## Currently Building Toward 🚀
-
-```
-API Test Automation (Postman + Newman)  ████████░░  In Progress
-GitHub Actions CI/CD Integration        ████████░░  In Progress
-JavaScript Automation Fundamentals      ███░░░░░░░  In Progress
-Playwright                              █░░░░░░░░░  Coming Soon
-```
-
-Check out my **[API Testing Portfolio](https://github.com/haris-yousaf/Api-Testing)**: a growing collection of test suites, automated CI runs, and documented defects built on real public APIs.
-
----
-
-## Let's Connect 🔗
-
-Always happy to connect with fellow testers, developers, or anyone who cares about shipping quality software.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Haris%20Bin%20Yousaf-black?style=flat&logo=linkedin)](https://www.linkedin.com/in/haris-yousaf-dev)
-[![GitHub](https://img.shields.io/badge/GitHub-haris--yousaf-black?style=flat&logo=github)](https://github.com/haris-yousaf)
-
----
-
-*"Quality is never an accident; it is always the result of intelligent effort."*
-*— John Ruskin (and every QA engineer who has ever written a bug report at midnight)*
+Islamabad, Pakistan. Open to junior SQA roles.
